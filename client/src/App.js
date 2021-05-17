@@ -8,12 +8,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        
-        <header className="App-header"></header>
-        <Link to="/">Home</Link>
-        <Link to="/otherpage">Other page</Link>
-      </div>
-      <div>
         <Route exact path="/" component={Fib} />
         <Route path="/otherpage" component={OtherPage} />
       </div>
